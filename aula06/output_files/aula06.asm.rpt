@@ -1,5 +1,5 @@
 Assembler report for aula06
-Sat Apr 20 15:02:14 2024
+Wed Apr 24 18:29:39 2024
 Quartus Prime Version 21.1.0 Build 842 10/21/2021 SJ Lite Edition
 
 
@@ -10,7 +10,7 @@ Quartus Prime Version 21.1.0 Build 842 10/21/2021 SJ Lite Edition
   2. Assembler Summary
   3. Assembler Settings
   4. Assembler Generated Files
-  5. Assembler Device Options: C:/Users/15554396/Downloads/aula06-20240420T163335Z-001/aula06/output_files/aula06.sof
+  5. Assembler Device Options: C:/Users/15554396/Downloads/lablogica-main/aula06/output_files/aula06.sof
   6. Assembler Messages
 
 
@@ -38,7 +38,7 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Sat Apr 20 15:02:14 2024 ;
+; Assembler Status      ; Successful - Wed Apr 24 18:29:39 2024 ;
 ; Revision Name         ; aula06                                ;
 ; Top-level Entity Name ; aula06                                ;
 ; Family                ; Cyclone IV E                          ;
@@ -53,23 +53,23 @@ https://fpgasoftware.intel.com/eula.
 +--------+---------+---------------+
 
 
-+----------------------------------------------------------------------------------------+
-; Assembler Generated Files                                                              ;
-+----------------------------------------------------------------------------------------+
-; File Name                                                                              ;
-+----------------------------------------------------------------------------------------+
-; C:/Users/15554396/Downloads/aula06-20240420T163335Z-001/aula06/output_files/aula06.sof ;
-+----------------------------------------------------------------------------------------+
++---------------------------------------------------------------------------+
+; Assembler Generated Files                                                 ;
++---------------------------------------------------------------------------+
+; File Name                                                                 ;
++---------------------------------------------------------------------------+
+; C:/Users/15554396/Downloads/lablogica-main/aula06/output_files/aula06.sof ;
++---------------------------------------------------------------------------+
 
 
-+------------------------------------------------------------------------------------------------------------------+
-; Assembler Device Options: C:/Users/15554396/Downloads/aula06-20240420T163335Z-001/aula06/output_files/aula06.sof ;
-+----------------+-------------------------------------------------------------------------------------------------+
-; Option         ; Setting                                                                                         ;
-+----------------+-------------------------------------------------------------------------------------------------+
-; JTAG usercode  ; 0x0056A9AD                                                                                      ;
-; Checksum       ; 0x0056A9AD                                                                                      ;
-+----------------+-------------------------------------------------------------------------------------------------+
++-----------------------------------------------------------------------------------------------------+
+; Assembler Device Options: C:/Users/15554396/Downloads/lablogica-main/aula06/output_files/aula06.sof ;
++----------------+------------------------------------------------------------------------------------+
+; Option         ; Setting                                                                            ;
++----------------+------------------------------------------------------------------------------------+
+; JTAG usercode  ; 0x0056A9AD                                                                         ;
+; Checksum       ; 0x0056A9AD                                                                         ;
++----------------+------------------------------------------------------------------------------------+
 
 
 +--------------------+
@@ -78,14 +78,14 @@ https://fpgasoftware.intel.com/eula.
 Info: *******************************************************************
 Info: Running Quartus Prime Assembler
     Info: Version 21.1.0 Build 842 10/21/2021 SJ Lite Edition
-    Info: Processing started: Sat Apr 20 15:02:11 2024
+    Info: Processing started: Wed Apr 24 18:29:36 2024
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off aula06 -c aula06
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (115031): Writing out detailed assembly data for power analysis
 Info (115030): Assembler is generating device programming files
 Info: Quartus Prime Assembler was successful. 0 errors, 1 warning
     Info: Peak virtual memory: 4710 megabytes
-    Info: Processing ended: Sat Apr 20 15:02:14 2024
+    Info: Processing ended: Wed Apr 24 18:29:39 2024
     Info: Elapsed time: 00:00:03
     Info: Total CPU time (on all processors): 00:00:03
 
