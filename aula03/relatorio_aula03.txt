@@ -1,0 +1,5 @@
+O projeto possui 3 entradas (SW17, SW16 e SW15) e quatro saídas em LEDs (LED17, LEDR16 e LEDR15). Essas entradas estão associadas às entradas lógicas E, D e F no circuito lógico, e às saídas CE, CD e CF para os leds, respectivamente.
+
+Já que a palavra "sempre" foi usada na primeira regra da especificação do problema, ela possui prioridade, e sempre que a entrada F não está ativada o CF ativa, independentemente se outras condições de ativamento de outros controles estão ocorrendo.
+
+A placa utilizada é a Cyclone IV (DE2).
