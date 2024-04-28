@@ -1,0 +1,6 @@
+O projeto possui 8 entradas (SW17-SW10) e as saídas padrão dos displays de 7 segmentos HEX6 (HEX6[0-6]), HEX4 (HEX4[0-6]), HEX1 (HEX1[0-6]) e HEX0 (HEX0[0-6]). 
+Essas entradas estão associadas às entradas lógicas i_a0, i_a1, i_a2, i_a3, i_b0, i_b1, i_b2, i_b3 no circuito lógico, e às saídas a_0 até a_6 para os primeiro operando, b_0 até b_6 para o segundo operando, s0_0 até s0_6 para o bit mais significativo do resultado e s1_0 até s1_6 para o bit menos significativo do resultado, respectivamente.
+
+O circuito calcula a soma dos números binários a e b, representados pelos dígitos de entrada i_aN e i_bN (1 >= N >= 4) e exibe os dois operandos e o resultado nos displays de 7 segmentos em hexadecimal.
+
+A placa utilizada é a Cyclone IV (DE2).

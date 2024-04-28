@@ -1,0 +1,6 @@
+O projeto possui 3 entradas (SW17, SW16 e SW15) e as saídas padrão dos displays de 7 segmentos HEX7 (HEX7[0-6]). 
+Essas entradas estão associadas às entradas lógicas a, b e c_in no circuito lógico, e às saídas s0-s6 para o display de 7 segmentos, respectivamente.
+
+O circuito calcula a soma de 3 bits de entrada usando um full-adder e exibe-a num display de 7 segmentos em hexadecimal.
+
+A placa utilizada é a Cyclone IV (DE2).
