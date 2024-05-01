@@ -1,0 +1,6 @@
+O projeto possui 3 entradas (SW17, SW16 e SW15) e as saídas LEDR17 e LEDR16. 
+Essas entradas estão associadas às entradas lógicas A, B e B_in no circuito lógico, e às saídas D e B_out, respectivamente.
+
+O circuito é um subtrator completo, que exibe a diferença das entradas A e B na saída D (Difference), e se há um bit "Borrow" na saída B_out.
+
+A placa utilizada é a Cyclone IV (DE2).

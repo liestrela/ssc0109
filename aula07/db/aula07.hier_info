@@ -1,0 +1,19 @@
+|aula07
+D <= subtrator:inst.D
+A => subtrator:inst.A
+B => subtrator:inst.B
+B_in => subtrator:inst.B_in
+B_out <= subtrator:inst.B_out
+
+
+|aula07|subtrator:inst
+D <= inst.DB_MAX_OUTPUT_PORT_TYPE
+B_in => inst.IN0
+B_in => inst5.IN1
+A => inst2.IN0
+A => inst4.IN0
+B => inst2.IN1
+B => inst3.IN0
+B_out <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+
+
