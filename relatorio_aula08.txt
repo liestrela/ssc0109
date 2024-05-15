@@ -1,0 +1,6 @@
+O projeto possui 8 entradas (SW17-SW10), as saídas padrão dos displays de 7 segmentos HEX6 (HEX6[0-6]), HEX4 (HEX4[0-6]), e HEX0 (HEX0[0-6]) e o LEDR17.. 
+Essas entradas estão associadas às entradas lógicas a0, a1, a2, a3, b0, b1, b2 e b3 no circuito lógico, e às saídas a_o0 até a_o6 para o primeiro operando, b_o0 até b_o6 para o segundo operando, d0 até d6 para o resultado, e borrow para o último bit de borrow, respectivamente.
+
+O circuito calcula o número b subtraído do número a (a-b), representados pelos dígitos de entrada aN e bN (0 >= N >= 3) e exibe os dois operandos e o resultado nos displays de 7 segmentos em hexadecimal.
+
+A placa utilizada é a Cyclone IV (DE2).

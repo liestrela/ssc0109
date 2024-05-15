@@ -8,31 +8,87 @@
 					"strict" : false
 				},
 				{
-					"name" : "s0",
+					"name" : "d0",
 					"strict" : false
 				},
 				{
-					"name" : "s1",
+					"name" : "d1",
 					"strict" : false
 				},
 				{
-					"name" : "s2",
+					"name" : "d2",
 					"strict" : false
 				},
 				{
-					"name" : "s3",
+					"name" : "d3",
 					"strict" : false
 				},
 				{
-					"name" : "s5",
+					"name" : "d4",
 					"strict" : false
 				},
 				{
-					"name" : "s6",
+					"name" : "d5",
 					"strict" : false
 				},
 				{
-					"name" : "s4",
+					"name" : "d6",
+					"strict" : false
+				},
+				{
+					"name" : "a_o0",
+					"strict" : false
+				},
+				{
+					"name" : "a_o1",
+					"strict" : false
+				},
+				{
+					"name" : "a_o2",
+					"strict" : false
+				},
+				{
+					"name" : "a_o3",
+					"strict" : false
+				},
+				{
+					"name" : "a_o5",
+					"strict" : false
+				},
+				{
+					"name" : "a_o6",
+					"strict" : false
+				},
+				{
+					"name" : "a_o4",
+					"strict" : false
+				},
+				{
+					"name" : "b_o0",
+					"strict" : false
+				},
+				{
+					"name" : "b_o1",
+					"strict" : false
+				},
+				{
+					"name" : "b_o2",
+					"strict" : false
+				},
+				{
+					"name" : "b_o3",
+					"strict" : false
+				},
+				{
+					"name" : "b_o4",
+					"strict" : false
+				},
+				{
+					"name" : "b_o5",
+					"strict" : false
+				},
+				{
+					"name" : "b_o6",
 					"strict" : false
 				},
 				{

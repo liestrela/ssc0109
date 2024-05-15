@@ -1,6 +1,6 @@
 Analysis & Synthesis report for aula08
-Tue May 14 21:01:21 2024
-Quartus Prime Version 21.1.0 Build 842 10/21/2021 SJ Lite Edition
+Tue May 14 23:30:19 2024
+Quartus Prime Version 23.1std.0 Build 991 11/28/2023 SC Lite Edition
 
 
 ---------------------
@@ -23,7 +23,7 @@ Quartus Prime Version 21.1.0 Build 842 10/21/2021 SJ Lite Edition
 ----------------
 ; Legal Notice ;
 ----------------
-Copyright (C) 2021  Intel Corporation. All rights reserved.
+Copyright (C) 2023  Intel Corporation. All rights reserved.
 Your use of Intel Corporation's design tools, logic functions 
 and other software and tools, and any partner logic 
 functions, and any output files from any of the foregoing 
@@ -40,24 +40,24 @@ https://fpgasoftware.intel.com/eula.
 
 
 
-+----------------------------------------------------------------------------------+
-; Analysis & Synthesis Summary                                                     ;
-+------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Tue May 14 21:01:21 2024       ;
-; Quartus Prime Version              ; 21.1.0 Build 842 10/21/2021 SJ Lite Edition ;
-; Revision Name                      ; aula08                                      ;
-; Top-level Entity Name              ; aula08                                      ;
-; Family                             ; Cyclone IV E                                ;
-; Total logic elements               ; 15                                          ;
-;     Total combinational functions  ; 15                                          ;
-;     Dedicated logic registers      ; 0                                           ;
-; Total registers                    ; 0                                           ;
-; Total pins                         ; 16                                          ;
-; Total virtual pins                 ; 0                                           ;
-; Total memory bits                  ; 0                                           ;
-; Embedded Multiplier 9-bit elements ; 0                                           ;
-; Total PLLs                         ; 0                                           ;
-+------------------------------------+---------------------------------------------+
++-------------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                        ;
++------------------------------------+------------------------------------------------+
+; Analysis & Synthesis Status        ; Successful - Tue May 14 23:30:19 2024          ;
+; Quartus Prime Version              ; 23.1std.0 Build 991 11/28/2023 SC Lite Edition ;
+; Revision Name                      ; aula08                                         ;
+; Top-level Entity Name              ; aula08                                         ;
+; Family                             ; Cyclone IV E                                   ;
+; Total logic elements               ; 29                                             ;
+;     Total combinational functions  ; 29                                             ;
+;     Dedicated logic registers      ; 0                                              ;
+; Total registers                    ; 0                                              ;
+; Total pins                         ; 30                                             ;
+; Total virtual pins                 ; 0                                              ;
+; Total memory bits                  ; 0                                              ;
+; Embedded Multiplier 9-bit elements ; 0                                              ;
+; Total PLLs                         ; 0                                              ;
++------------------------------------+------------------------------------------------+
 
 
 +------------------------------------------------------------------------------------------------------------+
@@ -151,8 +151,8 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 4           ;
-; Maximum allowed            ; 4           ;
+; Number detected on machine ; 8           ;
+; Maximum allowed            ; 2           ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
 ; Maximum used               ; 1           ;
@@ -162,47 +162,47 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                             ;
-+----------------------------------+-----------------+------------------------------------------+----------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                                ; File Name with Absolute Path                             ; Library ;
-+----------------------------------+-----------------+------------------------------------------+----------------------------------------------------------+---------+
-; aula08.bdf                       ; yes             ; User Block Diagram/Schematic File        ; C:/Users/15554396/Desktop/lablogica/aula08/aula08.bdf    ;         ;
-; display.bdf                      ; yes             ; User Block Diagram/Schematic File        ; C:/Users/15554396/Desktop/lablogica/aula08/display.bdf   ;         ;
-; subtrator.bdf                    ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/15554396/Desktop/lablogica/aula08/subtrator.bdf ;         ;
-+----------------------------------+-----------------+------------------------------------------+----------------------------------------------------------+---------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                    ;
++----------------------------------+-----------------+------------------------------------------+-------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                                ; File Name with Absolute Path                    ; Library ;
++----------------------------------+-----------------+------------------------------------------+-------------------------------------------------+---------+
+; aula08.bdf                       ; yes             ; User Block Diagram/Schematic File        ; /home/li/Code/gh/lablogica/aula08/aula08.bdf    ;         ;
+; display.bdf                      ; yes             ; User Block Diagram/Schematic File        ; /home/li/Code/gh/lablogica/aula08/display.bdf   ;         ;
+; subtrator.bdf                    ; yes             ; Auto-Found Block Diagram/Schematic File  ; /home/li/Code/gh/lablogica/aula08/subtrator.bdf ;         ;
++----------------------------------+-----------------+------------------------------------------+-------------------------------------------------+---------+
 
 
-+--------------------------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary                        ;
-+---------------------------------------------+----------------------+
-; Resource                                    ; Usage                ;
-+---------------------------------------------+----------------------+
-; Estimated Total logic elements              ; 15                   ;
-;                                             ;                      ;
-; Total combinational functions               ; 15                   ;
-; Logic element usage by number of LUT inputs ;                      ;
-;     -- 4 input functions                    ; 11                   ;
-;     -- 3 input functions                    ; 2                    ;
-;     -- <=2 input functions                  ; 2                    ;
-;                                             ;                      ;
-; Logic elements by mode                      ;                      ;
-;     -- normal mode                          ; 15                   ;
-;     -- arithmetic mode                      ; 0                    ;
-;                                             ;                      ;
-; Total registers                             ; 0                    ;
-;     -- Dedicated logic registers            ; 0                    ;
-;     -- I/O registers                        ; 0                    ;
-;                                             ;                      ;
-; I/O pins                                    ; 16                   ;
-;                                             ;                      ;
-; Embedded Multiplier 9-bit elements          ; 0                    ;
-;                                             ;                      ;
-; Maximum fan-out node                        ; subtrator:inst3|inst ;
-; Maximum fan-out                             ; 7                    ;
-; Total fan-out                               ; 78                   ;
-; Average fan-out                             ; 1.66                 ;
-+---------------------------------------------+----------------------+
++--------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary            ;
++---------------------------------------------+----------+
+; Resource                                    ; Usage    ;
++---------------------------------------------+----------+
+; Estimated Total logic elements              ; 29       ;
+;                                             ;          ;
+; Total combinational functions               ; 29       ;
+; Logic element usage by number of LUT inputs ;          ;
+;     -- 4 input functions                    ; 25       ;
+;     -- 3 input functions                    ; 2        ;
+;     -- <=2 input functions                  ; 2        ;
+;                                             ;          ;
+; Logic elements by mode                      ;          ;
+;     -- normal mode                          ; 29       ;
+;     -- arithmetic mode                      ; 0        ;
+;                                             ;          ;
+; Total registers                             ; 0        ;
+;     -- Dedicated logic registers            ; 0        ;
+;     -- I/O registers                        ; 0        ;
+;                                             ;          ;
+; I/O pins                                    ; 30       ;
+;                                             ;          ;
+; Embedded Multiplier 9-bit elements          ; 0        ;
+;                                             ;          ;
+; Maximum fan-out node                        ; b2~input ;
+; Maximum fan-out                             ; 10       ;
+; Total fan-out                               ; 162      ;
+; Average fan-out                             ; 1.82     ;
++---------------------------------------------+----------+
 
 
 +---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -210,7 +210,9 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+--------------------------+-------------+--------------+
 ; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name      ; Entity Name ; Library Name ;
 +----------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+--------------------------+-------------+--------------+
-; |aula08                    ; 15 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 16   ; 0            ; |aula08                  ; aula08      ; work         ;
+; |aula08                    ; 29 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 30   ; 0            ; |aula08                  ; aula08      ; work         ;
+;    |display:inst30|        ; 7 (7)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |aula08|display:inst30   ; display     ; work         ;
+;    |display:inst31|        ; 7 (7)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |aula08|display:inst31   ; display     ; work         ;
 ;    |display:inst99|        ; 7 (7)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |aula08|display:inst99   ; display     ; work         ;
 ;    |subtrator:inst2|       ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |aula08|subtrator:inst2  ; subtrator   ; work         ;
 ;    |subtrator:inst3|       ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |aula08|subtrator:inst3  ; subtrator   ; work         ;
@@ -240,16 +242,16 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; boundary_port         ; 16                          ;
-; cycloneiii_lcell_comb ; 22                          ;
-;     normal            ; 22                          ;
-;         1 data inputs ; 7                           ;
+; boundary_port         ; 30                          ;
+; cycloneiii_lcell_comb ; 50                          ;
+;     normal            ; 50                          ;
+;         1 data inputs ; 21                          ;
 ;         2 data inputs ; 2                           ;
 ;         3 data inputs ; 2                           ;
-;         4 data inputs ; 11                          ;
+;         4 data inputs ; 25                          ;
 ;                       ;                             ;
 ; Max LUT depth         ; 4.00                        ;
-; Average LUT depth     ; 3.80                        ;
+; Average LUT depth     ; 2.93                        ;
 +-----------------------+-----------------------------+
 
 
@@ -258,7 +260,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:00     ;
+; Top            ; 00:00:01     ;
 +----------------+--------------+
 
 
@@ -267,11 +269,11 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-------------------------------+
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
-    Info: Version 21.1.0 Build 842 10/21/2021 SJ Lite Edition
-    Info: Processing started: Tue May 14 21:01:12 2024
+    Info: Version 23.1std.0 Build 991 11/28/2023 SC Lite Edition
+    Info: Processing started: Tue May 14 23:30:02 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off aula08 -c aula08
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file aula08.bdf
     Info (12023): Found entity 1: aula08
 Info (12021): Found 1 design units, including 1 entities, in source file display.bdf
@@ -284,14 +286,14 @@ Info (12128): Elaborating entity "display" for hierarchy "display:inst99"
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 31 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 59 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 8 input pins
-    Info (21059): Implemented 8 output pins
-    Info (21061): Implemented 15 logic cells
+    Info (21059): Implemented 22 output pins
+    Info (21061): Implemented 29 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 2 warnings
-    Info: Peak virtual memory: 4762 megabytes
-    Info: Processing ended: Tue May 14 21:01:21 2024
-    Info: Elapsed time: 00:00:09
-    Info: Total CPU time (on all processors): 00:00:19
+    Info: Peak virtual memory: 364 megabytes
+    Info: Processing ended: Tue May 14 23:30:19 2024
+    Info: Elapsed time: 00:00:17
+    Info: Total CPU time (on all processors): 00:00:33
 
 
