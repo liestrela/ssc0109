@@ -1,0 +1,5 @@
+O projeto possui 11 entradas (SW17-SW13, SW12-SW9 e SW0), as saídas dos displays de 7 segmentos HEX7[6], HEX6[0-6], HEX5[6], HEX4[0-6], HEX2[6], HEX1[0-6] e HEX0[0-6]. Essas entradas estão associadas às entradas lógicas i_a_sinal, a0, a1, a2, a3 (para o primeiro operando e seu sinal), i_b_sinal, b0, b1, b2, b3 (para o segundo operando e seu sinal) e soma/sub no circuito lógico, e às saídas o_a_sinal, o_a00 até o_a06 (para o primeiro operando e seu sinal), o_b_sinal, o_b00 até o_b06 (para o segundo operando e seu sinal), res_sinal, res_s10 até res_s16 e res_s00 até res_s06 (para os dois dígitos do resultado e seu sinal), respectivamente.
+
+O circuito recebe dois operando em sinal-magnitude através das entradas lógicas e os exibe nos displays de 7 segmentos, e finalmente exibe a sua soma caso a chave de !soma/subtracao esteja desligada, e exibe a sua diferença caso a chaave de !soma/subtracao esteja ligada.
+
+A placa utilizada é a Cyclone IV (DE2).
