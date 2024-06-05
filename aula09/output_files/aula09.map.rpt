@@ -1,6 +1,6 @@
 Analysis & Synthesis report for aula09
-Tue May 28 20:50:04 2024
-Quartus Prime Version 21.1.0 Build 842 10/21/2021 SJ Lite Edition
+Sat Jun  1 19:32:33 2024
+Quartus Prime Version 23.1std.0 Build 991 11/28/2023 SC Lite Edition
 
 
 ---------------------
@@ -23,7 +23,7 @@ Quartus Prime Version 21.1.0 Build 842 10/21/2021 SJ Lite Edition
 ----------------
 ; Legal Notice ;
 ----------------
-Copyright (C) 2021  Intel Corporation. All rights reserved.
+Copyright (C) 2023  Intel Corporation. All rights reserved.
 Your use of Intel Corporation's design tools, logic functions 
 and other software and tools, and any partner logic 
 functions, and any output files from any of the foregoing 
@@ -40,24 +40,24 @@ https://fpgasoftware.intel.com/eula.
 
 
 
-+----------------------------------------------------------------------------------+
-; Analysis & Synthesis Summary                                                     ;
-+------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Tue May 28 20:50:04 2024       ;
-; Quartus Prime Version              ; 21.1.0 Build 842 10/21/2021 SJ Lite Edition ;
-; Revision Name                      ; aula09                                      ;
-; Top-level Entity Name              ; aula09                                      ;
-; Family                             ; Cyclone IV E                                ;
-; Total logic elements               ; 55                                          ;
-;     Total combinational functions  ; 55                                          ;
-;     Dedicated logic registers      ; 0                                           ;
-; Total registers                    ; 0                                           ;
-; Total pins                         ; 43                                          ;
-; Total virtual pins                 ; 0                                           ;
-; Total memory bits                  ; 0                                           ;
-; Embedded Multiplier 9-bit elements ; 0                                           ;
-; Total PLLs                         ; 0                                           ;
-+------------------------------------+---------------------------------------------+
++-------------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                        ;
++------------------------------------+------------------------------------------------+
+; Analysis & Synthesis Status        ; Successful - Sat Jun  1 19:32:33 2024          ;
+; Quartus Prime Version              ; 23.1std.0 Build 991 11/28/2023 SC Lite Edition ;
+; Revision Name                      ; aula09                                         ;
+; Top-level Entity Name              ; aula09                                         ;
+; Family                             ; Cyclone IV E                                   ;
+; Total logic elements               ; 55                                             ;
+;     Total combinational functions  ; 55                                             ;
+;     Dedicated logic registers      ; 0                                              ;
+; Total registers                    ; 0                                              ;
+; Total pins                         ; 43                                             ;
+; Total virtual pins                 ; 0                                              ;
+; Total memory bits                  ; 0                                              ;
+; Embedded Multiplier 9-bit elements ; 0                                              ;
+; Total PLLs                         ; 0                                              ;
++------------------------------------+------------------------------------------------+
 
 
 +------------------------------------------------------------------------------------------------------------+
@@ -151,8 +151,8 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 4           ;
-; Maximum allowed            ; 4           ;
+; Number detected on machine ; 8           ;
+; Maximum allowed            ; 2           ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
 ; Maximum used               ; 1           ;
@@ -162,17 +162,17 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                     ;
-+----------------------------------+-----------------+------------------------------------+--------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                           ; Library ;
-+----------------------------------+-----------------+------------------------------------+--------------------------------------------------------+---------+
-; aula09.bdf                       ; yes             ; User Block Diagram/Schematic File  ; C:/Users/15554396/Desktop/aula09/aula09.bdf            ;         ;
-; display.bdf                      ; yes             ; User Block Diagram/Schematic File  ; C:/Users/15554396/Desktop/aula09/display.bdf           ;         ;
-; somador.bdf                      ; yes             ; User Block Diagram/Schematic File  ; C:/Users/15554396/Desktop/aula09/somador.bdf           ;         ;
-; sinal_complemento.bdf            ; yes             ; User Block Diagram/Schematic File  ; C:/Users/15554396/Desktop/aula09/sinal_complemento.bdf ;         ;
-; somador_5bits.bdf                ; yes             ; User Block Diagram/Schematic File  ; C:/Users/15554396/Desktop/aula09/somador_5bits.bdf     ;         ;
-+----------------------------------+-----------------+------------------------------------+--------------------------------------------------------+---------+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                      ;
++----------------------------------+-----------------+------------------------------------+---------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                            ; Library ;
++----------------------------------+-----------------+------------------------------------+---------------------------------------------------------+---------+
+; aula09.bdf                       ; yes             ; User Block Diagram/Schematic File  ; /home/li/Code/gh/lablogica/aula09/aula09.bdf            ;         ;
+; display.bdf                      ; yes             ; User Block Diagram/Schematic File  ; /home/li/Code/gh/lablogica/aula09/display.bdf           ;         ;
+; somador.bdf                      ; yes             ; User Block Diagram/Schematic File  ; /home/li/Code/gh/lablogica/aula09/somador.bdf           ;         ;
+; sinal_complemento.bdf            ; yes             ; User Block Diagram/Schematic File  ; /home/li/Code/gh/lablogica/aula09/sinal_complemento.bdf ;         ;
+; somador_5bits.bdf                ; yes             ; User Block Diagram/Schematic File  ; /home/li/Code/gh/lablogica/aula09/somador_5bits.bdf     ;         ;
++----------------------------------+-----------------+------------------------------------+---------------------------------------------------------+---------+
 
 
 +--------------------------------------------------------+
@@ -293,11 +293,11 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-------------------------------+
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
-    Info: Version 21.1.0 Build 842 10/21/2021 SJ Lite Edition
-    Info: Processing started: Tue May 28 20:49:54 2024
+    Info: Version 23.1std.0 Build 991 11/28/2023 SC Lite Edition
+    Info: Processing started: Sat Jun  1 19:32:22 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off aula09 -c aula09
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file aula09.bdf
     Info (12023): Found entity 1: aula09
 Info (12021): Found 1 design units, including 1 entities, in source file display.bdf
@@ -325,9 +325,9 @@ Info (21057): Implemented 98 device resources after synthesis - the final resour
     Info (21059): Implemented 32 output pins
     Info (21061): Implemented 55 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 5 warnings
-    Info: Peak virtual memory: 4763 megabytes
-    Info: Processing ended: Tue May 28 20:50:04 2024
-    Info: Elapsed time: 00:00:10
-    Info: Total CPU time (on all processors): 00:00:19
+    Info: Peak virtual memory: 356 megabytes
+    Info: Processing ended: Sat Jun  1 19:32:33 2024
+    Info: Elapsed time: 00:00:11
+    Info: Total CPU time (on all processors): 00:00:28
 
 
