@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Thu Jun  6 17:39:11 2024
+Quartus Prime Version : 21.1.0 Build 842 10/21/2021 SJ Lite Edition
+Revision Name : aula10
+Top-level Entity Name : aula10
+Family : Cyclone IV E
+Total logic elements : 65
+    Total combinational functions : 65
+    Dedicated logic registers : 0
+Total registers : 0
+Total pins : 41
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

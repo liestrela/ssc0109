@@ -1,0 +1,6 @@
+O projeto possui 10 entradas (SW17-SW13, SW12-SW9), as saídas dos displays de 7 segmentos HEX7[6], HEX6[0-6], HEX5[6], HEX4[0-6], HEX2[6], HEX1[0-6] e HEX0[0-6].
+Essas entradas estão associadas às entradas lógicas a_sig, a0, a1, a2, a3 (para o primeiro operando e seu sinal), b_sig, b0, b1, b2, b3 (para o segundo operando e seu sinal) e às saídas a_sig_o, o_a0 até o_a6 (para o primeiro operando e seu sinal), b_sig_o, o_b0 até o_b6 (para o segundo operando e seu sinal), res_sinal, res1_0 até res1_6 e res0_0 até res0_6 (para os dois dígitos do resultado e seu sinal), respectivamente.
+
+O circuito recebe dois operandos em sinal-magnitude através das entradas lógicas e os exibe nos displays de 7 segmentos, e finalmente exibe o seu produto nos displays de 7 segmentos.
+
+A placa utilizada é a Cyclone IV (DE2).

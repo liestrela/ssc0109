@@ -4,7 +4,7 @@ JedecChain;
 	DefaultMfr(6E);
 
 	P ActionCode(Cfg)
-		Device PartName(EP4CE115F29) Path("C:/Users/15554396/Desktop/aula09/output_files/") File("aula09.sof") MfrSpec(OpMask(1));
+		Device PartName(EP4CE115F29) Path("C:/Users/15554396/Desktop/drive-download-20240606T194108Z-001/aula09/output_files/") File("aula09.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 
