@@ -1,0 +1,6 @@
+O projeto possui 8 entradas (SW17-SW10), as saídas dos displays de 7 segmentos HEX6[0-6], HEX5[0-6] e HEX4[0-6].
+Essas entradas estão associadas às entradas lógicas i0 até i7 (operando da raíz quadrada) e às saídas q0 até q6 (para a parte inteira da raíz quadrada do operando em hexadecimal no display de 7 segmentos), r0_0 até r0_6 e r1_0 até r1_6 (para o resto da operação, com dois dígitos hexadecimais nos displays de 7 segmentos), respectivamente.
+
+O circuito recebe um operando de 8 bits através das entradas lógicas e exibe a sua raíz quadrada e resto nos displays de 7 segmentos.
+
+A placa utilizada é a Cyclone IV (DE2).

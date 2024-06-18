@@ -1,0 +1,177 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "a4_o",
+					"strict" : false
+				},
+				{
+					"name" : "a5_o",
+					"strict" : false
+				},
+				{
+					"name" : "a6_o",
+					"strict" : false
+				},
+				{
+					"name" : "a3_o",
+					"strict" : false
+				},
+				{
+					"name" : "a2_o",
+					"strict" : false
+				},
+				{
+					"name" : "a1_o",
+					"strict" : false
+				},
+				{
+					"name" : "a0_o",
+					"strict" : false
+				},
+				{
+					"name" : "b4_o",
+					"strict" : false
+				},
+				{
+					"name" : "b5_o",
+					"strict" : false
+				},
+				{
+					"name" : "b6_o",
+					"strict" : false
+				},
+				{
+					"name" : "b3_o",
+					"strict" : false
+				},
+				{
+					"name" : "b2_o",
+					"strict" : false
+				},
+				{
+					"name" : "b1_o",
+					"strict" : false
+				},
+				{
+					"name" : "b0_o",
+					"strict" : false
+				},
+				{
+					"name" : "r1_0",
+					"strict" : false
+				},
+				{
+					"name" : "r1_1",
+					"strict" : false
+				},
+				{
+					"name" : "r1_2",
+					"strict" : false
+				},
+				{
+					"name" : "r1_3",
+					"strict" : false
+				},
+				{
+					"name" : "r1_6",
+					"strict" : false
+				},
+				{
+					"name" : "r1_5",
+					"strict" : false
+				},
+				{
+					"name" : "r1_4",
+					"strict" : false
+				},
+				{
+					"name" : "r0_0",
+					"strict" : false
+				},
+				{
+					"name" : "r0_1",
+					"strict" : false
+				},
+				{
+					"name" : "r0_2",
+					"strict" : false
+				},
+				{
+					"name" : "r0_3",
+					"strict" : false
+				},
+				{
+					"name" : "r0_6",
+					"strict" : false
+				},
+				{
+					"name" : "r0_5",
+					"strict" : false
+				},
+				{
+					"name" : "r0_4",
+					"strict" : false
+				},
+				{
+					"name" : "a_sig_o",
+					"strict" : false
+				},
+				{
+					"name" : "b_sig_o",
+					"strict" : false
+				},
+				{
+					"name" : "q_sig_o",
+					"strict" : false
+				},
+				{
+					"name" : "r_sig_o",
+					"strict" : false
+				},
+				{
+					"name" : "a3",
+					"strict" : false
+				},
+				{
+					"name" : "a1",
+					"strict" : false
+				},
+				{
+					"name" : "a2",
+					"strict" : false
+				},
+				{
+					"name" : "a0",
+					"strict" : false
+				},
+				{
+					"name" : "b3",
+					"strict" : false
+				},
+				{
+					"name" : "b1",
+					"strict" : false
+				},
+				{
+					"name" : "b2",
+					"strict" : false
+				},
+				{
+					"name" : "b0",
+					"strict" : false
+				},
+				{
+					"name" : "a_sig",
+					"strict" : false
+				},
+				{
+					"name" : "b_sig",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

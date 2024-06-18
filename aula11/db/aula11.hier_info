@@ -1,0 +1,723 @@
+|aula11
+a4_o <= display:inst.s4
+a3 => display:inst.a
+a3 => divisor:ins1230.A
+a3 => inst2.IN2
+a2 => display:inst.b
+a2 => divisor:inst7.A
+a2 => inst2.IN1
+a1 => display:inst.c
+a1 => divisor:inst12.A
+a1 => inst2.IN3
+a0 => display:inst.d
+a0 => divisor:inst17.A
+a0 => inst2.IN0
+a5_o <= display:inst.s5
+a6_o <= display:inst.s6
+a3_o <= display:inst.s3
+a2_o <= display:inst.s2
+a1_o <= display:inst.s1
+a0_o <= display:inst.s0
+b4_o <= display:inst99.s4
+b3 => display:inst99.a
+b3 => divisor:inst5.B
+b3 => divisor:inst10.B
+b3 => divisor:inst15.B
+b3 => divisor:inst20.B
+b3 => inst29.IN2
+b2 => display:inst99.b
+b2 => divisor:inst4.B
+b2 => divisor:inst9.B
+b2 => divisor:inst14.B
+b2 => divisor:inst19.B
+b2 => inst29.IN1
+b1 => display:inst99.c
+b1 => divisor:inst3.B
+b1 => divisor:inst8.B
+b1 => divisor:inst13.B
+b1 => divisor:inst18.B
+b1 => inst29.IN3
+b0 => display:inst99.d
+b0 => divisor:ins1230.B
+b0 => divisor:inst7.B
+b0 => divisor:inst12.B
+b0 => divisor:inst17.B
+b0 => inst29.IN0
+b5_o <= display:inst99.s5
+b6_o <= display:inst99.s6
+b3_o <= display:inst99.s3
+b2_o <= display:inst99.s2
+b1_o <= display:inst99.s1
+b0_o <= display:inst99.s0
+r1_0 <= display:inst23.s0
+r1_1 <= display:inst23.s1
+r1_2 <= display:inst23.s2
+r1_3 <= display:inst23.s3
+r1_6 <= display:inst23.s6
+r1_5 <= display:inst23.s5
+r1_4 <= display:inst23.s4
+r0_0 <= display:inst24.s0
+r0_1 <= display:inst24.s1
+r0_2 <= display:inst24.s2
+r0_3 <= display:inst24.s3
+r0_6 <= display:inst24.s6
+r0_5 <= display:inst24.s5
+r0_4 <= display:inst24.s4
+a_sig_o <= inst35.DB_MAX_OUTPUT_PORT_TYPE
+a_sig => inst33.IN0
+a_sig => inst32.IN0
+b_sig_o <= inst36.DB_MAX_OUTPUT_PORT_TYPE
+b_sig => inst34.IN0
+b_sig => inst32.IN1
+q_sig_o <= inst41.DB_MAX_OUTPUT_PORT_TYPE
+r_sig_o <= inst40.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|aula11|display:inst
+s0 <= inst52.DB_MAX_OUTPUT_PORT_TYPE
+a => inst8.IN0
+a => inst10.IN0
+a => inst.IN0
+a => inst17.IN0
+a => inst25.IN0
+a => inst31.IN0
+a => inst35.IN0
+a => inst36.IN0
+a => inst42.IN0
+a => inst41.IN0
+a => inst48.IN0
+a => inst47.IN0
+b => inst5.IN0
+b => inst9.IN1
+b => inst12.IN0
+b => inst24.IN1
+b => inst29.IN0
+b => inst30.IN0
+b => inst36.IN1
+b => inst38.IN1
+b => inst40.IN0
+b => inst44.IN1
+c => inst6.IN0
+c => inst11.IN1
+c => inst12.IN1
+c => inst16.IN1
+c => inst30.IN1
+c => inst28.IN1
+c => inst35.IN1
+c => inst34.IN0
+c => inst42.IN1
+c => inst46.IN0
+c => inst45.IN1
+d => inst7.IN0
+d => inst9.IN2
+d => inst17.IN2
+d => inst16.IN2
+d => inst23.IN1
+d => inst22.IN1
+d => inst29.IN2
+d => inst28.IN2
+d => inst48.IN1
+s1 <= inst53.DB_MAX_OUTPUT_PORT_TYPE
+s2 <= inst54.DB_MAX_OUTPUT_PORT_TYPE
+s3 <= inst55.DB_MAX_OUTPUT_PORT_TYPE
+s4 <= inst58.DB_MAX_OUTPUT_PORT_TYPE
+s5 <= inst57.DB_MAX_OUTPUT_PORT_TYPE
+s6 <= inst56.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|aula11|display:inst99
+s0 <= inst52.DB_MAX_OUTPUT_PORT_TYPE
+a => inst8.IN0
+a => inst10.IN0
+a => inst.IN0
+a => inst17.IN0
+a => inst25.IN0
+a => inst31.IN0
+a => inst35.IN0
+a => inst36.IN0
+a => inst42.IN0
+a => inst41.IN0
+a => inst48.IN0
+a => inst47.IN0
+b => inst5.IN0
+b => inst9.IN1
+b => inst12.IN0
+b => inst24.IN1
+b => inst29.IN0
+b => inst30.IN0
+b => inst36.IN1
+b => inst38.IN1
+b => inst40.IN0
+b => inst44.IN1
+c => inst6.IN0
+c => inst11.IN1
+c => inst12.IN1
+c => inst16.IN1
+c => inst30.IN1
+c => inst28.IN1
+c => inst35.IN1
+c => inst34.IN0
+c => inst42.IN1
+c => inst46.IN0
+c => inst45.IN1
+d => inst7.IN0
+d => inst9.IN2
+d => inst17.IN2
+d => inst16.IN2
+d => inst23.IN1
+d => inst22.IN1
+d => inst29.IN2
+d => inst28.IN2
+d => inst48.IN1
+s1 <= inst53.DB_MAX_OUTPUT_PORT_TYPE
+s2 <= inst54.DB_MAX_OUTPUT_PORT_TYPE
+s3 <= inst55.DB_MAX_OUTPUT_PORT_TYPE
+s4 <= inst58.DB_MAX_OUTPUT_PORT_TYPE
+s5 <= inst57.DB_MAX_OUTPUT_PORT_TYPE
+s6 <= inst56.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|aula11|display:inst23
+s0 <= inst52.DB_MAX_OUTPUT_PORT_TYPE
+a => inst8.IN0
+a => inst10.IN0
+a => inst.IN0
+a => inst17.IN0
+a => inst25.IN0
+a => inst31.IN0
+a => inst35.IN0
+a => inst36.IN0
+a => inst42.IN0
+a => inst41.IN0
+a => inst48.IN0
+a => inst47.IN0
+b => inst5.IN0
+b => inst9.IN1
+b => inst12.IN0
+b => inst24.IN1
+b => inst29.IN0
+b => inst30.IN0
+b => inst36.IN1
+b => inst38.IN1
+b => inst40.IN0
+b => inst44.IN1
+c => inst6.IN0
+c => inst11.IN1
+c => inst12.IN1
+c => inst16.IN1
+c => inst30.IN1
+c => inst28.IN1
+c => inst35.IN1
+c => inst34.IN0
+c => inst42.IN1
+c => inst46.IN0
+c => inst45.IN1
+d => inst7.IN0
+d => inst9.IN2
+d => inst17.IN2
+d => inst16.IN2
+d => inst23.IN1
+d => inst22.IN1
+d => inst29.IN2
+d => inst28.IN2
+d => inst48.IN1
+s1 <= inst53.DB_MAX_OUTPUT_PORT_TYPE
+s2 <= inst54.DB_MAX_OUTPUT_PORT_TYPE
+s3 <= inst55.DB_MAX_OUTPUT_PORT_TYPE
+s4 <= inst58.DB_MAX_OUTPUT_PORT_TYPE
+s5 <= inst57.DB_MAX_OUTPUT_PORT_TYPE
+s6 <= inst56.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|aula11|divisor:inst6
+B_out <= subtrator:inst.B_out
+B_in => subtrator:inst.B_in
+A => subtrator:inst.A
+A => inst3.IN0
+B => subtrator:inst.B
+S <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+Q => inst250.IN0
+Q => inst3.IN1
+
+
+|aula11|divisor:inst6|subtrator:inst
+D <= inst.DB_MAX_OUTPUT_PORT_TYPE
+B_in => inst.IN0
+B_in => inst5.IN1
+A => inst2.IN0
+A => inst4.IN0
+B => inst2.IN1
+B => inst3.IN0
+B_out <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|aula11|divisor:inst5
+B_out <= subtrator:inst.B_out
+B_in => subtrator:inst.B_in
+A => subtrator:inst.A
+A => inst3.IN0
+B => subtrator:inst.B
+S <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+Q => inst250.IN0
+Q => inst3.IN1
+
+
+|aula11|divisor:inst5|subtrator:inst
+D <= inst.DB_MAX_OUTPUT_PORT_TYPE
+B_in => inst.IN0
+B_in => inst5.IN1
+A => inst2.IN0
+A => inst4.IN0
+B => inst2.IN1
+B => inst3.IN0
+B_out <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|aula11|divisor:inst4
+B_out <= subtrator:inst.B_out
+B_in => subtrator:inst.B_in
+A => subtrator:inst.A
+A => inst3.IN0
+B => subtrator:inst.B
+S <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+Q => inst250.IN0
+Q => inst3.IN1
+
+
+|aula11|divisor:inst4|subtrator:inst
+D <= inst.DB_MAX_OUTPUT_PORT_TYPE
+B_in => inst.IN0
+B_in => inst5.IN1
+A => inst2.IN0
+A => inst4.IN0
+B => inst2.IN1
+B => inst3.IN0
+B_out <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|aula11|divisor:inst3
+B_out <= subtrator:inst.B_out
+B_in => subtrator:inst.B_in
+A => subtrator:inst.A
+A => inst3.IN0
+B => subtrator:inst.B
+S <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+Q => inst250.IN0
+Q => inst3.IN1
+
+
+|aula11|divisor:inst3|subtrator:inst
+D <= inst.DB_MAX_OUTPUT_PORT_TYPE
+B_in => inst.IN0
+B_in => inst5.IN1
+A => inst2.IN0
+A => inst4.IN0
+B => inst2.IN1
+B => inst3.IN0
+B_out <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|aula11|divisor:ins1230
+B_out <= subtrator:inst.B_out
+B_in => subtrator:inst.B_in
+A => subtrator:inst.A
+A => inst3.IN0
+B => subtrator:inst.B
+S <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+Q => inst250.IN0
+Q => inst3.IN1
+
+
+|aula11|divisor:ins1230|subtrator:inst
+D <= inst.DB_MAX_OUTPUT_PORT_TYPE
+B_in => inst.IN0
+B_in => inst5.IN1
+A => inst2.IN0
+A => inst4.IN0
+B => inst2.IN1
+B => inst3.IN0
+B_out <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|aula11|divisor:inst11
+B_out <= subtrator:inst.B_out
+B_in => subtrator:inst.B_in
+A => subtrator:inst.A
+A => inst3.IN0
+B => subtrator:inst.B
+S <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+Q => inst250.IN0
+Q => inst3.IN1
+
+
+|aula11|divisor:inst11|subtrator:inst
+D <= inst.DB_MAX_OUTPUT_PORT_TYPE
+B_in => inst.IN0
+B_in => inst5.IN1
+A => inst2.IN0
+A => inst4.IN0
+B => inst2.IN1
+B => inst3.IN0
+B_out <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|aula11|divisor:inst10
+B_out <= subtrator:inst.B_out
+B_in => subtrator:inst.B_in
+A => subtrator:inst.A
+A => inst3.IN0
+B => subtrator:inst.B
+S <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+Q => inst250.IN0
+Q => inst3.IN1
+
+
+|aula11|divisor:inst10|subtrator:inst
+D <= inst.DB_MAX_OUTPUT_PORT_TYPE
+B_in => inst.IN0
+B_in => inst5.IN1
+A => inst2.IN0
+A => inst4.IN0
+B => inst2.IN1
+B => inst3.IN0
+B_out <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|aula11|divisor:inst9
+B_out <= subtrator:inst.B_out
+B_in => subtrator:inst.B_in
+A => subtrator:inst.A
+A => inst3.IN0
+B => subtrator:inst.B
+S <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+Q => inst250.IN0
+Q => inst3.IN1
+
+
+|aula11|divisor:inst9|subtrator:inst
+D <= inst.DB_MAX_OUTPUT_PORT_TYPE
+B_in => inst.IN0
+B_in => inst5.IN1
+A => inst2.IN0
+A => inst4.IN0
+B => inst2.IN1
+B => inst3.IN0
+B_out <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|aula11|divisor:inst8
+B_out <= subtrator:inst.B_out
+B_in => subtrator:inst.B_in
+A => subtrator:inst.A
+A => inst3.IN0
+B => subtrator:inst.B
+S <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+Q => inst250.IN0
+Q => inst3.IN1
+
+
+|aula11|divisor:inst8|subtrator:inst
+D <= inst.DB_MAX_OUTPUT_PORT_TYPE
+B_in => inst.IN0
+B_in => inst5.IN1
+A => inst2.IN0
+A => inst4.IN0
+B => inst2.IN1
+B => inst3.IN0
+B_out <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|aula11|divisor:inst7
+B_out <= subtrator:inst.B_out
+B_in => subtrator:inst.B_in
+A => subtrator:inst.A
+A => inst3.IN0
+B => subtrator:inst.B
+S <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+Q => inst250.IN0
+Q => inst3.IN1
+
+
+|aula11|divisor:inst7|subtrator:inst
+D <= inst.DB_MAX_OUTPUT_PORT_TYPE
+B_in => inst.IN0
+B_in => inst5.IN1
+A => inst2.IN0
+A => inst4.IN0
+B => inst2.IN1
+B => inst3.IN0
+B_out <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|aula11|divisor:inst16
+B_out <= subtrator:inst.B_out
+B_in => subtrator:inst.B_in
+A => subtrator:inst.A
+A => inst3.IN0
+B => subtrator:inst.B
+S <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+Q => inst250.IN0
+Q => inst3.IN1
+
+
+|aula11|divisor:inst16|subtrator:inst
+D <= inst.DB_MAX_OUTPUT_PORT_TYPE
+B_in => inst.IN0
+B_in => inst5.IN1
+A => inst2.IN0
+A => inst4.IN0
+B => inst2.IN1
+B => inst3.IN0
+B_out <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|aula11|divisor:inst15
+B_out <= subtrator:inst.B_out
+B_in => subtrator:inst.B_in
+A => subtrator:inst.A
+A => inst3.IN0
+B => subtrator:inst.B
+S <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+Q => inst250.IN0
+Q => inst3.IN1
+
+
+|aula11|divisor:inst15|subtrator:inst
+D <= inst.DB_MAX_OUTPUT_PORT_TYPE
+B_in => inst.IN0
+B_in => inst5.IN1
+A => inst2.IN0
+A => inst4.IN0
+B => inst2.IN1
+B => inst3.IN0
+B_out <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|aula11|divisor:inst14
+B_out <= subtrator:inst.B_out
+B_in => subtrator:inst.B_in
+A => subtrator:inst.A
+A => inst3.IN0
+B => subtrator:inst.B
+S <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+Q => inst250.IN0
+Q => inst3.IN1
+
+
+|aula11|divisor:inst14|subtrator:inst
+D <= inst.DB_MAX_OUTPUT_PORT_TYPE
+B_in => inst.IN0
+B_in => inst5.IN1
+A => inst2.IN0
+A => inst4.IN0
+B => inst2.IN1
+B => inst3.IN0
+B_out <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|aula11|divisor:inst13
+B_out <= subtrator:inst.B_out
+B_in => subtrator:inst.B_in
+A => subtrator:inst.A
+A => inst3.IN0
+B => subtrator:inst.B
+S <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+Q => inst250.IN0
+Q => inst3.IN1
+
+
+|aula11|divisor:inst13|subtrator:inst
+D <= inst.DB_MAX_OUTPUT_PORT_TYPE
+B_in => inst.IN0
+B_in => inst5.IN1
+A => inst2.IN0
+A => inst4.IN0
+B => inst2.IN1
+B => inst3.IN0
+B_out <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|aula11|divisor:inst12
+B_out <= subtrator:inst.B_out
+B_in => subtrator:inst.B_in
+A => subtrator:inst.A
+A => inst3.IN0
+B => subtrator:inst.B
+S <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+Q => inst250.IN0
+Q => inst3.IN1
+
+
+|aula11|divisor:inst12|subtrator:inst
+D <= inst.DB_MAX_OUTPUT_PORT_TYPE
+B_in => inst.IN0
+B_in => inst5.IN1
+A => inst2.IN0
+A => inst4.IN0
+B => inst2.IN1
+B => inst3.IN0
+B_out <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|aula11|divisor:inst21
+B_out <= subtrator:inst.B_out
+B_in => subtrator:inst.B_in
+A => subtrator:inst.A
+A => inst3.IN0
+B => subtrator:inst.B
+S <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+Q => inst250.IN0
+Q => inst3.IN1
+
+
+|aula11|divisor:inst21|subtrator:inst
+D <= inst.DB_MAX_OUTPUT_PORT_TYPE
+B_in => inst.IN0
+B_in => inst5.IN1
+A => inst2.IN0
+A => inst4.IN0
+B => inst2.IN1
+B => inst3.IN0
+B_out <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|aula11|divisor:inst20
+B_out <= subtrator:inst.B_out
+B_in => subtrator:inst.B_in
+A => subtrator:inst.A
+A => inst3.IN0
+B => subtrator:inst.B
+S <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+Q => inst250.IN0
+Q => inst3.IN1
+
+
+|aula11|divisor:inst20|subtrator:inst
+D <= inst.DB_MAX_OUTPUT_PORT_TYPE
+B_in => inst.IN0
+B_in => inst5.IN1
+A => inst2.IN0
+A => inst4.IN0
+B => inst2.IN1
+B => inst3.IN0
+B_out <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|aula11|divisor:inst19
+B_out <= subtrator:inst.B_out
+B_in => subtrator:inst.B_in
+A => subtrator:inst.A
+A => inst3.IN0
+B => subtrator:inst.B
+S <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+Q => inst250.IN0
+Q => inst3.IN1
+
+
+|aula11|divisor:inst19|subtrator:inst
+D <= inst.DB_MAX_OUTPUT_PORT_TYPE
+B_in => inst.IN0
+B_in => inst5.IN1
+A => inst2.IN0
+A => inst4.IN0
+B => inst2.IN1
+B => inst3.IN0
+B_out <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|aula11|divisor:inst18
+B_out <= subtrator:inst.B_out
+B_in => subtrator:inst.B_in
+A => subtrator:inst.A
+A => inst3.IN0
+B => subtrator:inst.B
+S <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+Q => inst250.IN0
+Q => inst3.IN1
+
+
+|aula11|divisor:inst18|subtrator:inst
+D <= inst.DB_MAX_OUTPUT_PORT_TYPE
+B_in => inst.IN0
+B_in => inst5.IN1
+A => inst2.IN0
+A => inst4.IN0
+B => inst2.IN1
+B => inst3.IN0
+B_out <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|aula11|divisor:inst17
+B_out <= subtrator:inst.B_out
+B_in => subtrator:inst.B_in
+A => subtrator:inst.A
+A => inst3.IN0
+B => subtrator:inst.B
+S <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+Q => inst250.IN0
+Q => inst3.IN1
+
+
+|aula11|divisor:inst17|subtrator:inst
+D <= inst.DB_MAX_OUTPUT_PORT_TYPE
+B_in => inst.IN0
+B_in => inst5.IN1
+A => inst2.IN0
+A => inst4.IN0
+B => inst2.IN1
+B => inst3.IN0
+B_out <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|aula11|display:inst24
+s0 <= inst52.DB_MAX_OUTPUT_PORT_TYPE
+a => inst8.IN0
+a => inst10.IN0
+a => inst.IN0
+a => inst17.IN0
+a => inst25.IN0
+a => inst31.IN0
+a => inst35.IN0
+a => inst36.IN0
+a => inst42.IN0
+a => inst41.IN0
+a => inst48.IN0
+a => inst47.IN0
+b => inst5.IN0
+b => inst9.IN1
+b => inst12.IN0
+b => inst24.IN1
+b => inst29.IN0
+b => inst30.IN0
+b => inst36.IN1
+b => inst38.IN1
+b => inst40.IN0
+b => inst44.IN1
+c => inst6.IN0
+c => inst11.IN1
+c => inst12.IN1
+c => inst16.IN1
+c => inst30.IN1
+c => inst28.IN1
+c => inst35.IN1
+c => inst34.IN0
+c => inst42.IN1
+c => inst46.IN0
+c => inst45.IN1
+d => inst7.IN0
+d => inst9.IN2
+d => inst17.IN2
+d => inst16.IN2
+d => inst23.IN1
+d => inst22.IN1
+d => inst29.IN2
+d => inst28.IN2
+d => inst48.IN1
+s1 <= inst53.DB_MAX_OUTPUT_PORT_TYPE
+s2 <= inst54.DB_MAX_OUTPUT_PORT_TYPE
+s3 <= inst55.DB_MAX_OUTPUT_PORT_TYPE
+s4 <= inst58.DB_MAX_OUTPUT_PORT_TYPE
+s5 <= inst57.DB_MAX_OUTPUT_PORT_TYPE
+s6 <= inst56.DB_MAX_OUTPUT_PORT_TYPE
+
+
