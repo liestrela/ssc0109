@@ -1,0 +1,6 @@
+O projeto possui 10 entradas (SW17-SW8), as saídas dos displays de 7 segmentos HEX7[6], HEX6[0-6], HEX5[6] e HEX4[0-6], e os LEDS LEDR17, LEDR16 e LEDR15.
+Essas entradas estão associadas às entradas lógicas a4 até a0 (sinal e magnitude do primeiro operando), b4 até b0 (sinal e magnitude do segundo operando) e às saídas a_sig_o e b_sig_o (para os sinais das entradas nos displays de 7 segmentos), o_a0 até o_a6 (para o primeiro operando no display de 7 segmentos), o_b0 até o_b6 (para o segundo operando no display de 7 segmentos), AG (diz se o primeiro operando é o maior), BG (diz se o segundo operando é o maior) e EQ (diz se os dois operandos são iguais), respectivamente.
+
+O circuito recebe dois operandos com 4 bits de magnitude e 1 de sinal através das entradas lógicas e exibe nos LEDs qual é o maior operando ou se eles são iguais.
+
+A placa utilizada é a Cyclone IV (DE2).
